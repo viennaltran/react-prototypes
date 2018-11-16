@@ -6,6 +6,7 @@ module.exports = {
         'webpack-dev-server/client?http://localhost:3000',
         './index.js'
     ],
+    mode: 'development',
     output: {
         filename: 'bundle.js',
         path: resolve(__dirname, 'dist'),
